@@ -23,11 +23,11 @@
                                 <color key="textColor" red="0.58072251080000004" green="0.066734083" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="UMass" translatesAutoresizingMaskIntoConstraints="NO" id="KCF-W5-DFI">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="umass" translatesAutoresizingMaskIntoConstraints="NO" id="KCF-W5-DFI">
                                 <rect key="frame" x="16" y="402" width="352" height="200"/>
                                 <autoresizingMask key="autoresizingMask" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl9-fW-qFK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl9-fW-qFK">
                                 <rect key="frame" x="166" y="20" width="59" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -48,16 +48,18 @@
                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                     </view>
                     <connections>
+                        <outlet property="imageDisplayed" destination="KCF-W5-DFI" id="JtF-XB-doJ"/>
                         <outlet property="messageLabel" destination="4CL-Pb-sDe" id="xfk-fa-qrs"/>
+                        <outlet property="myApp" destination="jl9-fW-qFK" id="UTZ-Ln-Wvb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-23" y="62"/>
+            <point key="canvasLocation" x="-23.199999999999999" y="61.619190404797607"/>
         </scene>
     </scenes>
     <resources>
-        <image name="UMass" width="128" height="128"/>
+        <image name="umass" width="2505" height="2048"/>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

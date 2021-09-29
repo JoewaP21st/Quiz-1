@@ -9,7 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var myApp: UILabel!
     @IBOutlet weak var messageLabel: UILabel!
+    @IBOutlet weak var imageDisplayed: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,7 +20,8 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         messageLabel.text="Hello there"
-        
+        myApp.textColor=UIColor.systemRed
+        myApp.textAlignment = .left
     }
     
 }
