@@ -19,9 +19,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonPressed(_ sender: UIButton) {
-        messageLabel.text="Hello there"
-        myApp.textColor=UIColor.systemRed
+        messageLabel.text="Welcome to UMass"
         myApp.textAlignment = .left
+        myApp.textColor=UIColor.systemRed
+        imageDisplayed.image = UIImage(named:"zoomass")
     }
     
 }
